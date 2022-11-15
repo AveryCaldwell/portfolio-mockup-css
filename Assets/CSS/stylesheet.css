@@ -7,7 +7,7 @@
 :root {
   --gray: rgb(49, 52, 61);
   --lightblue: rgb(146, 204, 206);
-  --bgcolor: rgb(238, 238, 247);
+  --bgcolor: white;
   --darkblue: rgb(68, 88, 119);
 }
 
@@ -92,4 +92,14 @@ p,
   margin-left: 195px;
   width: 82%;
   background-color: pink; /* placeholder color */
+  color: var(--darkblue);
+  font-size: 15px;
+}
+
+.img1 {
+  max-width: 500px;
+}
+
+.work img {
+  border: 5px solid var(--lightblue);
 }
