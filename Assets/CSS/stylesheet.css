@@ -55,6 +55,7 @@ li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* max-width: 100%; */
 }
 
 .banner-text {
@@ -70,6 +71,7 @@ li a:hover {
 
 #container {
   background-color: var(--bgcolor);
+  padding: 0;
 }
 
 h2 {
