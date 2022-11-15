@@ -5,15 +5,15 @@
 }
 
 :root {
-  --gray: rgb(88, 88, 88);
-  --lightblue: rgb(153, 213, 210);
-  --bgcolor: white;
-  --darkblue: rgb(35, 59, 73);
+  --gray: rgb(49, 52, 61);
+  --lightblue: rgb(146, 204, 206);
+  --bgcolor: rgb(238, 238, 247);
+  --darkblue: rgb(68, 88, 119);
 }
 
 .header {
   background-color: var(--gray);
-  color: rgb(79, 79, 79);
+
   height: 75px;
 }
 
@@ -34,7 +34,6 @@ ul {
 
 li {
   display: inline;
-  /* float: right; */
 }
 
 li a {
@@ -78,10 +77,9 @@ h2 {
   width: 125px;
   /* flex-direction: row; */
   /* flex-wrap: wrap; */
-  font-size: 30px;
+  font-size: 35px;
   color: var(--darkblue);
   margin-left: 50px;
-  background-color: gray; /* placeholder color */
 }
 
 p,
