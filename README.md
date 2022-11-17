@@ -53,23 +53,74 @@ Acceptance Criteria
 ​
 ### Links
 ​
-
+- Solution URL: [https://github.com/AveryCaldwell/portfolio-mockup-css](https://github.com/AveryCaldwell/portfolio-mockup-css)
+- Live Site URL: [https://averycaldwell.github.io/portfolio-mockup-css/](https://averycaldwell.github.io/portfolio-mockup-css/)
 ​
 ## My process
 ​
 ### Built with
-
+​
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Git/Git pages
+​
+​
 ​
 ### What I learned
+
+ - While working on this project, I learned how to use use multiple classees within an element in order to prevent redundant CSS and make it easier to read.
+ - In regard to z-index, I learned how to change the order of the elements so the label is over the image.
+ - This is the first time I have used " :root " and it made keeping the color scheme consistent much easier.
+
+```html
+< image src="./Assets/images/top-photo1.jpg" class="grid-img img-border" alt="project 1" />
+```
+​
+ - I am proud of this code because it resembles the mock-up functionality, but is still personalized to me. 
+ - I also enjoyed customizing the CSS to reflect my personality and creativity. 
+
+
+```css
+:root {
+  --gray: #13292a;
+  --lightblue: #c0f0f7;
+  --bgcolor: rgb(255, 255, 255);
+  --darkblue: #175873;
+}
+
+.grid-label {
+  display: block;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  color: var(--darkblue);
+  background-color: var(--lightblue);
+  padding: 7px;
+  z-index: 2;
+}
+.grid-img {
+  width: 100%;
+  display: block;
+  opacity: 50%;
+  z-index: 1;
+}
+```
 
 
 ​
 ### Continued development
 ​
+I want to further my understanding of z-index because it would have saved time when creating this webpage. I would also like to better understand default settings in relation to the parent and siblings.
+
 
 ​
 ### Useful resources
-
+​
+- [https://www.w3schools.com/cssref/pr_pos_z-index.php/](https://www.w3schools.com/cssref/pr_pos_z-index.php/) - This helped me understand z-index. It provided an easy visual to follow and obtain a better understanding for positioning elements. 
+- [https://developer.mozilla.org/en-US/docs/Web/CSS/transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition8) - This is a great guide on creating transitions.
+​
 
 ​
 ## Author
