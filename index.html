@@ -12,26 +12,27 @@
 
 <body>
     <!-- Start of Header  -->
-    <header class="header">
-        <h1>Avery Caldwell</h1>
+    <header>
+        <div class="mh-title">
+            <h1>Avery Caldwell</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/avery-c-261117110/">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <div class="banner-image">
-        <img src="Assets\images\avery-banner.jpg" class="banner-image" alt="banner & photo of Avery" />
+    <div class="banner-image-container">
         <div class="banner-text">
-            <h3>Cool subtitle here!</h3>
-        </div> <!-- banner-text -->
-    </div> <!-- banner-image -->
+            <h3>&#10036; Future Full Stack Dev! &#10036;</h3>
+        </div>
+        <img src="Assets\images\avery-banner.jpg" class="banner-image" alt="banner & photo of Avery" />
 
-    <br />
-    <!-- End of Header  -->
+    </div>
+    <!-- End of Header/Banner -->
 
     <!-- Start of Main content  -->
     <div id="container">
@@ -56,27 +57,57 @@
                 </div>
                 <!--End of content box -->
             </div>
-            <!-- End of About section -->
+            <!-- End of About Me section -->
             <br />
 
             <div id="work" class="content-flex">
                 <div class="content-title">
                     <h2>Work</h2>
                 </div>
-                <!--End of content title -->
-                <div class="content-box">
-                    <section class="work">
-                        <image src="./Assets/images/top-photo1.jpg" class="img100 img-content" alt="coming soon" />
-                        <image src="./Assets/images/grid2.jpg" class="img50 img-content" alt="coming soon" />
-                        <image src="./Assets/images/grid3.jpg" class="img50 img-content" alt="coming soon" />
-                        <image src="./Assets/images/grid4.jpg" class="img50 img-content" alt="coming soon" />
-                        <image src="./Assets/images/grid5.jpg" class="img50 img-content" alt="coming soon" />
-
-                    </section>
+                <div class="content-box work">
+                    <!-- wrapped images in div for scaling purposes-->
+                    <div class="img100 img-content">
+                        <div class="grid-label">
+                            <h4>Module 1</h4>
+                            <p>HTML/CSS</p>
+                        </div>
+                        <a href="https://averycaldwell.github.io/horiseon-website-optimization/index.html">
+                            <image src="./Assets/images/top-photo1.jpg" class="grid-img img-border" alt="project 1" />
+                        </a>
+                    </div>
+                    <div class="img50 img-content">
+                        <div class="grid-label">
+                            <h4>Project 2</h4>
+                            <p>JavaScript</p>
+                        </div>
+                        <image src="./Assets/images/grid2.jpg" class="grid-img" alt="project 2" />
+                    </div>
+                    <div class="img50 img-content">
+                        <div class="grid-label">
+                            <h4>Project 3</h4>
+                            <p>React</p>
+                        </div>
+                        <image src="./Assets/images/grid3.jpg" class="grid-img" alt="Project 3" />
+                    </div>
+                    <div class="img50 img-content">
+                        <div class="grid-label">
+                            <h4>Project 4</h4>
+                            <p>Mern Stack</p>
+                        </div>
+                        <image src="./Assets/images/grid4.jpg" class="grid-img" alt="Project 4" />
+                    </div>
+                    <div class="img50 img-content">
+                        <div class="grid-label">
+                            <h4>Project 5</h4>
+                            <p>Node</p>
+                        </div>
+                        <image src="./Assets/images/grid5.jpg" class="grid-img" alt="Project 5" />
+                    </div>
+                    <!-- used z-index to bring image labels forward -->
                 </div>
                 <!--End of content box-->
             </div>
-            <!-- End of work section  -->
+            <!-- End of Work section  -->
             <br />
 
             <div id="contact" class="content-flex">
@@ -86,19 +117,19 @@
                 <!--End of content title -->
                 <div class="content-box">
                     <div class="content-contact">
-                        <p>555-555-555</p>
-                        <p>email@email.com</p>
-                        <p>GitHub</p>
-                        <p>Twitter</p>
-                        <p>Spotify</p>
+                        <p><a href="#">601-506-1057</a></p>
+                        <p><a href="#">averyc77@uw.edu</a></p>
+                        <p><a href="https://github.com/AveryCaldwell">GitHub</a></p>
+                        <p><a href="#">Twitter</a></p>
+                        <p><a href="#">Spotify</a></p>
                     </div>
                 </div>
                 <!-- End of content box  -->
             </div>
-            <!-- End of contact section  -->
+            <!-- End of Contact Me section  -->
 
     </div>
-    <!-- End of container div -->
+    <!-- End of main container div -->
     <br />
     </main>
 </body>
