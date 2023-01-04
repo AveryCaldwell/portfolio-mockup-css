@@ -17,6 +17,7 @@ body {
   background-color: var(--bgcolor);
 }
 /* nav bar */
+/* 
 header {
   background-color: var(--gray);
   width: 100%;
@@ -34,25 +35,25 @@ header {
 .menu h2 {
   font-family: poppins;
   color: var(--gray);
-  /* text-align: right; */
   background-color: var(--lightblue);
   padding: 3px;
   font-size: 2em;
 }
-
+*/
+/* 
 nav {
   margin-right: 10%;
 }
 
 nav ul {
-  /* text-align: right; */
+   text-align: right; 
   list-style-type: none;
   overflow: hidden;
   padding-top: 25px;
   height: calc(100% - 25px);
 }
 
-/* nav ul li */
+
 .list-items {
   display: inline-flex;
   align-items: center;
@@ -72,8 +73,14 @@ nav ul {
 .list-items a:hover {
   background-color: var(--lightblue);
   color: var(--gray);
-  /* border-radius: 45%; */
-  /* padding: 5px; */
+
+}
+*/
+.navbar,
+.nav-link {
+  background-color: var(--darkblue);
+  color: white;
+  margin: 0 !important;
 }
 
 /* Banner image with text below the nav */
@@ -85,9 +92,9 @@ nav ul {
 }
 
 .banner-text {
-  display: inline-block;
-  text-align: left;
-  position: absolute;
+  /* display: inline-block; */
+  text-align: center;
+  /* position: absolute; */
   right: 10%;
   bottom: 30px;
   color: var(--darkblue);
@@ -95,28 +102,29 @@ nav ul {
   padding: 7px;
   z-index: 2;
 }
-.banner-image {
+
+.banner-image-container img {
   width: 100%;
   height: 500px;
   object-fit: cover;
 }
 
-html {
-  color-scheme: dark light;
-}
-
-img {
-  max-width: 100%;
-  display: block;
+.name-title {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: var(--darkblue);
 }
 
 /* pop out image */
 .person {
   --transform-speed: 250ms;
   position: relative;
-  max-width: 15rem;
+  max-width: 25rem;
   margin-inline: auto;
-  top: -435px;
+  top: -370px;
 }
 .person_container {
   aspect-ratio: 1 / 1.35;
@@ -129,7 +137,6 @@ img {
 .person_container:hover {
   transform: scale(1.1);
 }
-
 .person_circle {
   position: absolute;
   inset: auto 0 0;
@@ -139,7 +146,6 @@ img {
   border-radius: 50%;
   object-fit: cover;
 }
-
 .person_img {
   position: relative;
   left: 3.5em;
@@ -153,13 +159,12 @@ img {
 }
 
 /* Main body container  */
-#container {
+/* .container-fluid {
   width: 85%;
   left: 10%;
   position: absolute;
-  /* display: inline-block; */
-  display: flex;
-}
+  display: inline-block; 
+ } */
 
 /* This class is used for all three sections in body  */
 .content-title {
@@ -196,6 +201,7 @@ h2 {
 /* turns into flexbox  */
 .content-flex {
   display: flex;
+  top:0;
 }
 
 /* larger first app image and link */
