@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/CSS/stylesheet.css">
-    <title>Module 2</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
 </head>
 
 
@@ -14,7 +18,9 @@
     <!-- Start of Header  -->
     <header>
         <div class="mh-title">
-            <h1>Avery Caldwell</h1>
+            <section class="menu">
+                <h2>Avery Caldwell</h2>
+            </section>
         </div>
         <nav>
             <ul>
@@ -29,8 +35,13 @@
         <div class="banner-text">
             <h3>&#10036; Future Full Stack Dev! &#10036;</h3>
         </div>
-        <img src="Assets\images\avery-banner.jpg" class="banner-image" alt="banner & photo of Avery" />
-
+        <img src="./Assets/images/green-banner.jpg" class="banner-image" alt="banner & photo of Avery" />
+        <div class="person">
+            <div class="person_container">
+                <img class="person_circle" src="./Assets/images/blue-bg.jpg" alt="" />
+                <img class="person_img" src="./Assets/images/aves2.png" alt="Avery Caldwell" />
+            </div>
+        </div>
     </div>
     <!-- End of Header/Banner -->
 
@@ -68,70 +79,74 @@
                     <!-- wrapped images in div for scaling purposes-->
                     <div class="img100 img-content">
                         <div class="grid-label">
-                            <h4>Module 1</h4>
-                            <p>HTML/CSS</p>
+                            <h4>Wear You Wander</h4>
+                            <p>Server-Side APIs</p>
                         </div>
-                        <a href="https://averycaldwell.github.io/horiseon-website-optimization/index.html">
-                            <image src="./Assets/images/top-photo1.jpg" class="grid-img img-border" alt="project 1" />
+                        <a href="https://github.com/AveryCaldwell/WearYouWander"></a>
+                        <image src="./Assets/images/project1.png" class="grid-img img-border" alt="project 1" />
                         </a>
                     </div>
                     <div class="img50 img-content">
                         <div class="grid-label">
-                            <h4>Project 2</h4>
-                            <p>JavaScript</p>
+                            <h4>Module 1</h4>
+                            <p>HTML/CSS</p>
                         </div>
-                        <image src="./Assets/images/grid2.jpg" class="grid-img" alt="project 2" />
+                        <a href="https://averycaldwell.github.io/horiseon-website-optimization/index.html"></a>
+                        <image src="./Assets/images/top-photo1.jpg" class="grid-img" alt="project 2" />
                     </div>
                     <div class="img50 img-content">
                         <div class="grid-label">
-                            <h4>Project 3</h4>
-                            <p>React</p>
+                            <h4>Weather Dashboard</h4>
+                            <p>JS/3rd Party API</p>
                         </div>
-                        <image src="./Assets/images/grid3.jpg" class="grid-img" alt="Project 3" />
+                        <a href="https://github.com/AveryCaldwell/weather-dashboard-API"></a>
+                        <image src="./Assets/images/weather-dashboard.png" class="grid-img" alt="Weather Dashboard" />
                     </div>
                     <div class="img50 img-content">
                         <div class="grid-label">
-                            <h4>Project 4</h4>
-                            <p>Mern Stack</p>
+                            <h4>Work Day Scheduler</h4>
+                            <p>jQuery</p>
                         </div>
-                        <image src="./Assets/images/grid4.jpg" class="grid-img" alt="Project 4" />
+                        <a href="https://github.com/AveryCaldwell/work-Day-Scheduler"></a>
+                        <image src="./Assets/images/workday-scheduler.png" class="grid-img" alt="Work Day Scheduler" />
                     </div>
                     <div class="img50 img-content">
                         <div class="grid-label">
-                            <h4>Project 5</h4>
-                            <p>Node</p>
+                            <h4>Code Quiz</h4>
+                            <p>Web API/JS</p>
+                            <a href="https://github.com/AveryCaldwell/code-quiz-web-APIs"></a>
+                            <image src="./Assets/images/quiz.png" class="grid-img" alt="Code Quiz Web API" />
                         </div>
-                        <image src="./Assets/images/grid5.jpg" class="grid-img" alt="Project 5" />
+                        <!-- used z-index to bring image labels forward -->
                     </div>
-                    <!-- used z-index to bring image labels forward -->
+                    <!--End of content box-->
                 </div>
-                <!--End of content box-->
+                <!-- End of Work section  -->
+                <br />
+
+                <div id="contact" class="content-flex">
+                    <div class="content-title">
+                        <h2>Contact</br> Me</h2>
+                    </div>
+                    <!--End of content title -->
+                    <div class="content-box">
+                        <div class="content-contact">
+                            <p><a href="#">601-506-1057</a></p>
+                            <p><a href="#">averyc77@uw.edu</a></p>
+                            <p><a href="https://github.com/AveryCaldwell">GitHub</a></p>
+                            <p><a href="#">Twitter</a></p>
+                            <p><a href="#">Spotify</a></p>
+                        </div>
+                    </div>
+                    <!-- End of content box  -->
+                </div>
+                <!-- End of Contact Me section  -->
+
             </div>
-            <!-- End of Work section  -->
+            <!-- End of main container div -->
             <br />
-
-            <div id="contact" class="content-flex">
-                <div class="content-title">
-                    <h2>Contact</br> Me</h2>
-                </div>
-                <!--End of content title -->
-                <div class="content-box">
-                    <div class="content-contact">
-                        <p><a href="#">601-506-1057</a></p>
-                        <p><a href="#">averyc77@uw.edu</a></p>
-                        <p><a href="https://github.com/AveryCaldwell">GitHub</a></p>
-                        <p><a href="#">Twitter</a></p>
-                        <p><a href="#">Spotify</a></p>
-                    </div>
-                </div>
-                <!-- End of content box  -->
-            </div>
-            <!-- End of Contact Me section  -->
-
-    </div>
-    <!-- End of main container div -->
-    <br />
-    </main>
+        </main>
+        <!-- <script src="./Assets/js/script.js"></script> -->
 </body>
 
 </html>
