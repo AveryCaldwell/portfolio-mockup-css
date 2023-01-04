@@ -150,7 +150,7 @@ img {
 
 /* Main body container  */
 #container {
-  width: 80%;
+  width: 85%;
   left: 10%;
   position: absolute;
   display: inline-block;
@@ -172,7 +172,7 @@ h2 {
 
 /* This class is used for all three sections in body  */
 .content-box {
-  width: 85%;
+  width: 100%;
   float: left;
   padding-left: 18px;
 }
@@ -187,9 +187,10 @@ h2 {
   position: relative;
 }
 
-.work {
+.content-box .work {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 /* turns into flexbox  */
