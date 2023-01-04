@@ -34,7 +34,7 @@ header {
 .menu h2 {
   font-family: poppins;
   color: var(--gray);
-  text-align: right;
+  /* text-align: right; */
   background-color: var(--lightblue);
   padding: 3px;
   font-size: 2em;
@@ -45,21 +45,23 @@ nav {
 }
 
 nav ul {
-  text-align: right;
+  /* text-align: right; */
   list-style-type: none;
   overflow: hidden;
   padding-top: 25px;
   height: calc(100% - 25px);
 }
 
-nav ul li {
-  display: inline;
+/* nav ul li */
+.list-items {
+  display: inline-flex;
+  align-items: center;
   padding: 0 10px 3px 10px;
   border-bottom: 3px solid var(--lightblue);
   margin: 0 3px 0 3px;
 }
 
-nav ul li a {
+.list-items a {
   font-size: 18px;
   color: var(--lightblue);
   font-family: helvetica;
@@ -67,9 +69,11 @@ nav ul li a {
   margin-bottom: 3px;
 }
 
-li a:hover {
+.list-items a:hover {
   background-color: var(--lightblue);
   color: var(--gray);
+  /* border-radius: 45%; */
+  /* padding: 5px; */
 }
 
 /* Banner image with text below the nav */
@@ -153,7 +157,8 @@ img {
   width: 85%;
   left: 10%;
   position: absolute;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
 }
 
 /* This class is used for all three sections in body  */
@@ -172,7 +177,7 @@ h2 {
 
 /* This class is used for all three sections in body  */
 .content-box {
-  width: 100%;
+  width: 85%;
   float: left;
   padding-left: 18px;
 }
@@ -185,12 +190,7 @@ h2 {
   color: var(--darkblue);
   font-size: 15px;
   position: relative;
-}
-
-.content-box .work {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  width: 85%;
 }
 
 /* turns into flexbox  */
