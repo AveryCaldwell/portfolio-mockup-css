@@ -12,70 +12,14 @@
   --mint: #cae8d5;
   --teal: #3b6978;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--bgcolor);
 }
+
 /* nav bar */
-/* 
-header {
-  background-color: var(--gray);
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.mh-title {
-  width: 25%;
-  padding-top: 10px;
-  height: calc(100% - 17px);
-}
-
-.menu h2 {
-  font-family: poppins;
-  color: var(--gray);
-  background-color: var(--lightblue);
-  padding: 3px;
-  font-size: 2em;
-}
-*/
-/* 
-nav {
-  margin-right: 10%;
-}
-
-nav ul {
-   text-align: right; 
-  list-style-type: none;
-  overflow: hidden;
-  padding-top: 25px;
-  height: calc(100% - 25px);
-}
-
-
-.list-items {
-  display: inline-flex;
-  align-items: center;
-  padding: 0 10px 3px 10px;
-  border-bottom: 3px solid var(--lightblue);
-  margin: 0 3px 0 3px;
-}
-
-.list-items a {
-  font-size: 18px;
-  color: var(--lightblue);
-  font-family: helvetica;
-  text-decoration: none;
-  margin-bottom: 3px;
-}
-
-.list-items a:hover {
-  background-color: var(--lightblue);
-  color: var(--gray);
-
-}
-*/
 .navbar,
 .nav-link {
   background-color: var(--darkblue);
@@ -92,9 +36,7 @@ nav ul {
 }
 
 .banner-text {
-  /* display: inline-block; */
   text-align: center;
-  /* position: absolute; */
   right: 10%;
   bottom: 30px;
   color: var(--darkblue);
@@ -169,6 +111,7 @@ nav ul {
 /* This class is used for all three sections in body  */
 .content-title {
   /* width: 15%; */
+  left: 100px;
   border-right: 5px solid var(--darkblue);
   font-size: 1.2em;
   text-align: right;
@@ -201,7 +144,40 @@ h2 {
 /* turns into flexbox  */
 .content-flex {
   display: flex;
-  top:0;
+}
+
+/* Skill bar */
+.bar-container {
+  width: 75%;
+  background-color: #ddd;
+}
+.skills {
+  padding-left: 15px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#skill-bar h2 {
+  font-size: 32px;
+}
+.bar-padding {
+  padding-left: 100px;
+}
+.html {
+  padding-left: 15px;
+  width: 90%;
+  background-color: var(--sage);
+}
+.css {
+  width: 80%;
+  background-color: var(--teal);
+}
+.js {
+  width: 65%;
+  background-color: var(--darkblue);
+  margin-bottom: 50px;
 }
 
 /* larger first app image and link */
