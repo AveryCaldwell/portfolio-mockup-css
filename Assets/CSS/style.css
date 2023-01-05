@@ -12,9 +12,7 @@
   --mint: #cae8d5;
   --teal: #3b6978;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 body {
   background-color: var(--bgcolor);
 }
@@ -140,7 +138,9 @@ h2 {
   position: relative;
   width: 85%;
 }
-
+#about p {
+  font-size: 1.5em;
+}
 /* turns into flexbox  */
 .content-flex {
   display: flex;
@@ -182,7 +182,7 @@ h2 {
 
 /* larger first app image and link */
 .img100 {
-  width: calc(100% - 26px);
+  width: calc(85% - 26px);
 }
 
 .img-content {
